@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="12dp"
+    android:background="@drawable/rounded_group_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvListId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="List ID:"
+        android:textColor="@color/app_background"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnExpand"
+        android:background="@drawable/rounded_group_bg"
+        android:backgroundTint="@color/toolbar_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/group_background"
+        android:text=">" />
+</LinearLayout>
